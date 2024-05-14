@@ -57,9 +57,14 @@ public class LearningCurve : MonoBehaviour
     //usar com while (página 135)
     public int PlayersLives = 3;
 
+    public Transform CamTransform;
+
     // Start is called before the first frame update
     void Start()
     {
+        CamTransform = this.GetComponent<Transform>();
+        Debug.Log(CamTransform.localPosition);
+
         int CharacterLevel = 32;
         //Debug.log(30 + 1);
         //Debug.Log(CurrentAge + 1);

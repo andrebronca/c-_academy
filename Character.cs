@@ -17,6 +17,7 @@ public class Character
         this.name = name;
     }
 
+    //virtual: permite criar um método com polimorfismo
     public virtual void PrintStatsInfo()
     {
         Debug.LogFormat("Hero: {0} - {1} EXP", this.name, this.exp);

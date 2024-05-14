@@ -13,6 +13,7 @@ public class Paladin : Character
         this.weapon = weapon;
     }
 
+    //usando poliformismo
     public override void PrintStatsInfo()
     {
         //base.PrintStatsInfo();
